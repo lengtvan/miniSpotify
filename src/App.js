@@ -1,7 +1,6 @@
 import { Box } from "@mui/material";
 import { Container } from "@mui/material";
 import "./App.css";
-import Controller from "./components/Controller";
 import TrackList from "./components/TrackList";
 import { MusicPlayerProvider } from "./contexts/MusicPlayerContext";
 
