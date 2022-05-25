@@ -28,10 +28,10 @@ function TrackList() {
         // }}
       >
         {" "}
-        <Box>
+        <Box sx={{ display: "flex", justifyContent: "center" }}>
           <div className="song-title marquee">{currentTrackName}</div>
         </Box>
-        <Stack spacing={2} sx={{ p: "12px" }}>
+        <Stack spacing={2} sx={{ p: "12px", mb: "30px" }}>
           {trackList.map((track, index) => (
             <Box
               sx={{
