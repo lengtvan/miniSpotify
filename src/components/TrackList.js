@@ -29,7 +29,7 @@ function TrackList() {
       >
         {" "}
         <Box>
-          <marquee className="song-title marquee">{currentTrackName}</marquee>
+          <div className="song-title marquee">{currentTrackName}</div>
         </Box>
         <Stack spacing={2} sx={{ p: "12px" }}>
           {trackList.map((track, index) => (
@@ -61,9 +61,7 @@ function TrackList() {
           ))}
           <Controller />
         </Stack>
-        <Box>
-          <marquee></marquee>
-        </Box>
+        <Box></Box>
       </Container>
     </>
   );

@@ -1,4 +1,4 @@
-import { BottomNavigationAction, Box } from "@mui/material";
+import { BottomNavigationAction } from "@mui/material";
 import { BottomNavigation } from "@mui/material";
 import React from "react";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
